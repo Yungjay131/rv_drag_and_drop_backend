@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <title>For generating JSON data</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mx-auto">view data</h1>
+
+        <div class="form-group">
+            <div class="col">
+                <div class="row mb-2">
+                    <label for="input-number">please enter number of users to view</label>
+                    <input type="number" id="input-number" name="input-number">
+                </div>
+
+                <div class="row">
+                    <input type="submit" value="request" id="btn-submit">
+                </div>
+
+            </div>
+        </div>
+
+        <ul id="list"></ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
